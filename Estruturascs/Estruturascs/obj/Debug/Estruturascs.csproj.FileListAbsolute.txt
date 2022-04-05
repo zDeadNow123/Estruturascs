@@ -1,0 +1,8 @@
+C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\bin\Debug\Estruturascs.exe.config
+C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\bin\Debug\Estruturascs.exe
+C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\bin\Debug\Estruturascs.pdb
+C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\obj\Debug\Estruturascs.csproj.AssemblyReference.cache
+C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\obj\Debug\Estruturascs.csproj.SuggestedBindingRedirects.cache
+C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\obj\Debug\Estruturascs.csproj.CoreCompileInputs.cache
+C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\obj\Debug\Estruturascs.exe
+C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\obj\Debug\Estruturascs.pdb
