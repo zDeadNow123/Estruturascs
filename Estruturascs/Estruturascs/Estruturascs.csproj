@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Random%28nomedalib%29">
+      <HintPath>..\..\..\Random(nomedalib)\Random(nomedalib)\bin\Debug\Random(nomedalib).dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

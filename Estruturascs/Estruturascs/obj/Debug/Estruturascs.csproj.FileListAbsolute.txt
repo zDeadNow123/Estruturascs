@@ -6,3 +6,6 @@ C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\obj\Debug\Est
 C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\obj\Debug\Estruturascs.csproj.CoreCompileInputs.cache
 C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\obj\Debug\Estruturascs.exe
 C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\obj\Debug\Estruturascs.pdb
+C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\bin\Debug\Random(nomedalib).dll
+C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\bin\Debug\Random(nomedalib).pdb
+C:\Users\Julio\source\repos\Estruturascs\Estruturascs\Estruturascs\obj\Debug\Estruturascs.csproj.CopyComplete

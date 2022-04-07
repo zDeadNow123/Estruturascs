@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Random_nomedalib_;
 
 namespace Estruturascs {
     internal class Program {
@@ -34,9 +32,9 @@ namespace Estruturascs {
 
         static void Main(string[] args) {
 
-            Carro carro2 = new Carro("Ford", "Ka", "Azul", "ABC-1234");
+            // Carro carro2 = new Carro("Ford", "Ka", "Azul", "ABC-1234");
 
-            carro2.showData();
+            // carro2.showData();
 
             /*
             Carro carro = new Carro();
@@ -50,12 +48,37 @@ namespace Estruturascs {
             Console.WriteLine("Modelo: " + carro.Modelo);
             Console.WriteLine("Placa: " + carro.Placa);
             Console.WriteLine("Cor: " + carro.Cor);
-*/
-            // Queue
+            // Queue - Filas
 
-            // Stack
+            Queue<string> fila = new Queue<string>();
+
+            fila.Enqueue("José");
+            fila.Enqueue("Bruna");
+            fila.Enqueue("Gui");
+
+            Console.WriteLine($"Numero de pessoas na fila: {fila.Count}");
+            Console.WriteLine($"Próximo da fila: {fila.Peek()}");
+
+            Console.WriteLine($"Sr: {fila.Dequeue()}, aqui está seu café");
+
+            // Stack - Pilhas
+
+            Stack<int> pilha = new Stack<int>();
+
+            pilha.Push(12); // Adiciona elemento na pilha
+            pilha.Push(13);
+            pilha.Push(14);
+            pilha.Push(15);
+
+            foreach (int i in pilha) {
+                Console.WriteLine(i);
+            }
+
+            pilha.Pop(); // Remove elemento da pilha
+*/
 
             // List
+            /*
 
             List<Carro> carros = new List<Carro>();
             carros.Add(new Carro("Ford", "Ka", "Azul", "ABC-1234"));
@@ -72,6 +95,20 @@ namespace Estruturascs {
 
             Console.WriteLine(teste);
 
+            */
+
+            if (Usuario.EfetuarLogin("nome", "senac")) { 
+                // logado com sucesso
+            }
+
+            Usuario usuario = new Usuario("Zé", "ze@dotcom", "12345", new Nivel("Caixa","cx"));
+
+            Console.WriteLine("{0}, {1}", usuario.Nome, usuario.Nivel.Nome);
+
+            // usuario.Id = 10;
+            Nivel nivel = new Nivel();
+
+            nivel.Alterar(1, "cx");
             Console.ReadKey();
         }
     }
